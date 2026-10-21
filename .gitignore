@@ -1,0 +1,14 @@
+# Build
+android/build/
+android/app/build/
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/.idea/
+*.iml
+# Binaries (published as GitHub releases instead)
+*.apk
+*.aab
+*.jks
+*.keystore
+keystore.properties

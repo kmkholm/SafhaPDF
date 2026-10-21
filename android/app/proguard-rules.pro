@@ -1,0 +1,14 @@
+# PDFium (JNI) و PDFBox (موارد وخطوط تُحمَّل بالاسم)
+-keep class io.legere.pdfiumandroid.** { *; }
+-keep class com.googlecode.tesseract.android.** { *; }
+-keep class com.googlecode.leptonica.android.** { *; }
+-keep class com.tom_roush.pdfbox.** { *; }
+-keep class com.tom_roush.fontbox.** { *; }
+-keep class com.tom_roush.harmony.** { *; }
+-dontwarn org.bouncycastle.**
+-dontwarn com.gemalto.jp2.**
+-dontwarn javax.annotation.**
+-dontwarn com.google.errorprone.annotations.**
+-dontwarn com.google.j2objc.annotations.**
+-dontwarn org.checkerframework.**
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
